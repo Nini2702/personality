@@ -1,0 +1,111 @@
+#main {
+    background-image: url(bg1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#title {
+    margin-top: 25px;
+    color: aliceblue;
+    font-family: 'Yeseva One', cursive;
+    font-size: 70px;
+    text-shadow: 2px 2px black;
+}
+#smallnote {
+    color:white;
+    font-size: 30px;
+    font-family: 'Oleo Script', cursive;
+    text-shadow: 2px 2px black;
+}
+#start{
+    height: 325px;
+    opacity: 0%;
+    width: 150px;
+}
+
+
+#login {
+    margin-top:50px;
+    border-radius: 10px;
+    background-color:black;
+    color: aliceblue;
+    width: 300px;
+    height: 100px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+#loginpg{
+    background-image: url('bg2...gif');
+    background-size: cover;
+    background-position: center;
+}
+#prompt {
+    margin-top: 190px;
+    color: aliceblue;
+    font-family: 'Oleo Script', cursive;
+    text-shadow: 3px 3px black;
+font-size: 100px;
+color: plum;
+}
+#user_name{
+    margin-top:70px ;
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 2px 2px black;
+    font-size: 30px;
+    background-color: bisque;
+    opacity: 80%;
+}
+
+
+
+#pg1{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    background-image: url(bg3.jpg);
+    background-size: cover;
+    
+}
+#username{
+    font-family: 'Forum', cursive;
+    font-weight: bold;
+    background-color:cornflowerblue;
+    width: 50%;
+    border-radius: 75px;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px black;
+}
+#note{
+    font-family: 'Gruppo', cursive;
+    font-weight: bolder;
+}
+#note2{
+    font-family: 'Nova Slim', cursive;
+    text-shadow: 2px 2px green;
+}
+.ans{
+    width: 300px;
+    height:200px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 75px;
+    background-image: url(click.gif);
+    font-family: 'Gruppo', cursive;
+    font-size: 50px;
+    color:crimson;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+}
+.question{
+    font-family: 'Gruppo', cursive;
+    font-size: 50px;
+    color:crimson;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+}
+
+#result{
+    background-image: url(click.gif);
+    background-size: cover; 
+}

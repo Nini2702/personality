@@ -1,0 +1,118 @@
+<html>
+    <head>
+        <title>Genshin Impact Personality Quiz</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Forum&family=Gruppo&family=Nova+Slim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body id="pg1">
+        
+        <audio autoplay>
+            <source src="Rex-Incognito.ogg" type="audio/ogg">
+            <source src="Rex Incognito.mp3" type="audio/mpeg">
+          </audio>
+<center>
+    <h1 id="username"></h1>
+    <h2 id="note" >Find out which Genshin character you are (Doesn't include all playable characters) </h2>
+    <h1 id="note2">Click on the answer which resonates with you the best!</h1>
+    <div id="question1">
+        <h2  class="question">Choose an animal</h2>
+    <span>
+        <button type="button" id="a1" class="ans" onclick="answer0(); ">Owl</button>
+        <button type="button" id="a2" class="ans" onclick="answer5();">Wolf</button>
+        <button type="button" id="a3" class="ans" onclick="answer10();">Tiger</button>
+</div>
+<!--Q2-->
+<div  id="question2" hidden>
+    <h2 class="question">Where would you rather live?</h2>
+    <span >
+        <button type="button" id="b1" class="ans" onclick="answer0(); ">Japan</button>
+        <button type="button" id="b2" class="ans" onclick="answer10();">China</button>
+        <button type="button" id="b3" class="ans" onclick="answer5();">Germany</button>
+    </span>
+    </div>
+    <!--Q3-->
+    <div id="question3" hidden>
+        <h2 class="question">Choose an element</h2>
+    <span >
+        <button type="button" id="c1" class="ans" onclick="answer10(); ">Lightning</button>
+        <button type="button" id="c2" class="ans" onclick="answer0();">Water</button>
+        <button type="button" id="c3" class="ans" onclick="answer5();">Fire</button>
+    </span>
+    </div>
+    <!--Q4-->
+    <div id="question4" hidden>
+        <h2 class="question">Who would you rather battle with?</h2>
+    <span>
+        <button type="button" id="d1" class="ans" onclick="answer10(); ">Childe</button>
+        <button type="button" id="d2" class="ans" onclick="answer5();">Andrius</button>
+        <button type="button" id="d3" class="ans" onclick="answer0();">Dvalin</button>
+    </span>
+    </div>
+    <!--Q5-->
+    <div id="question5" hidden>
+        <h2 class="question">Which event is your favourite?</h2>
+    <span>
+        <button type="button" id="e1" class="ans" onclick="answer0(); ">Invitation of Windblume</button>
+        <button type="button" id="e2" class="ans" onclick="answer10();">Lantern Rite</button>
+        <button type="button" id="e3" class="ans" onclick="answer5();">Midsummer Island</button>
+    </span>
+    </div>
+    <!--Q6-->
+    <div id="question6" hidden>
+        <h2 class="question">Which of these is more important to you?</h2>
+    <span>
+        <button type="button" id="f1" class="ans" onclick="answer5(); ">Bravery</button>
+        <button type="button" id="f2" class="ans" onclick="answer0();">Fame</button>
+        <button type="button" id="f3" class="ans" onclick="answer10();">Love</button>
+    </span>
+    </div>
+    <!--Q7-->
+    <div id="question7" hidden>
+        <h2 class="question">Which gadget would you rather have?</h2>
+    <span>
+        <button type="button" id="g1" class="ans" onclick="answer10(); ">Windsong Lyre</button>
+        <button type="button" id="g2" class="ans" onclick="answer5();">Inquistitive Endora</button>
+        <button type="button" id="g3" class="ans" onclick="answer0();">Adepti Seeker's Stove</button>
+    </span>
+    </div>
+    <!--Q8-->
+    <div id="question8" hidden>
+        <h2 class="question">Choose a weapon</h2>
+    <span>
+        <button type="button" id="h1" class="ans" onclick="answer0(); ">Skyward Blade</button>
+        <button type="button" id="h2" class="ans" onclick="answer5();">Amos' Bow</button>
+        <button type="button" id="h3" class="ans" onclick="answer10();">The Unforged</button>
+    </span>
+    </div>
+    <!--Q9-->
+    <div id="question9" hidden>
+        <h2 class="question">Choose a catalyst</h2>
+    <span>
+        <button type="button" id="i1" class="ans" onclick="answer10(); ">Wine and Song</button>
+        <button type="button" id="i2" class="ans" onclick="answer0();">Mappa Mare</button>
+        <button type="button" id="i3" class="ans" onclick="answer5();">Royal Grimore</button>
+    </span>
+    </div>
+    <!--Q10-->
+    <div id="question10" hidden>
+        <h2 class="question">Choose a color</h2>
+    <span>
+        <button type="button" id="j1" class="ans" onclick="answer5(); ">Purple</button>
+        <button type="button" id="j2" class="ans" onclick="answer0();">Blue</button>
+        <button type="button" id="j3" class="ans" onclick="answer10();">Orange</button>
+    </span>
+    </div>
+  
+</center>
+<script src="main.js"></script>
+    </body>
+  
+</html>
